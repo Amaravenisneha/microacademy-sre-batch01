@@ -1,0 +1,12 @@
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
+
+ PID    PPID CMD                         %MEM %CPU
+  37463       1 /usr/lib/snapd/snapd         3.5  0.0
+    263       1 /sbin/multipathd -d -s       1.8  0.0
+    628       1 /usr/bin/python3 /usr/share  1.6  0.0
+  37990       1 /lib/systemd/systemd-journa  1.6  0.0
+    452       1 /usr/bin/python3 /usr/bin/n  1.6  0.0
+   4944    4826 /snap/amazon-ssm-agent/5163  1.5  0.0
+      1       0 /lib/systemd/systemd --syst  1.2  0.0
+    464       1 /usr/lib/udisks2/udisksd     1.1  0.0
+  37985       1 /lib/systemd/systemd-resolv  0.9  0.0
