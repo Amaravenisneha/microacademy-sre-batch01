@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "This is known file"
-*/1 * * * * /home/ubuntu/myscript9.sh
+crontab -e
+*/1 * * * * echo "This is known file" >script.sh 
